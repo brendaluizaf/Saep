@@ -1,1 +1,9 @@
 CREATE DATABASE saepdb;
+
+CREATE Table
+IF NOT EXISTS Atividades(
+    numero int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    funcionario VARCHAR(255) NOT NULL,
+    detalhes VARCHAR(255) NOT NULL
+);
